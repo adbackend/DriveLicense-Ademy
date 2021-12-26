@@ -1,0 +1,110 @@
+@charset "UTF-8";
+/* card 스타일 시작 */
+.card-width{
+	width:260px;
+}
+.card-body-height{
+	height: 170px;
+}
+
+.Info-card-body-height{
+	height: 70px;
+}
+
+.card-img-top{
+	height: 310px;
+}
+.card-title::after{
+	content: " 강사님";
+	font-size: 20px;
+	color:rgb(53, 54, 55);
+
+}
+.card-button{
+	margin-top: 7px;
+}
+
+.card-text{
+	text-align: center;
+}
+
+ .card-body p { margin-bottom: 1px; }
+ 
+/* card 스타일 끝 */
+
+/* 강사 추가 버튼 margin값 */
+.btn-div{
+	margin-right: 17px;
+}
+
+.btn-outline-primary{
+	margin-bottom: 10px;
+}
+
+/* 강사 등록 form 사이즈 */
+.form_div{
+	width : 900px;
+	margin: 0 auto;
+}
+ 
+/* 강사 등록 input 타입 넓이*/
+.input_width{
+	width:300px;
+	margin-bottom: 15px;
+}
+
+/* 사진 미리보기 태그 */
+.my-photo{
+	display: none;
+}
+
+
+.photo-div{
+	text-align: center;
+}
+
+
+/* 파일 업로드 버튼 스타일 시작 */
+.filebox {
+	padding-top:10px;
+	padding-bottom: 15px;
+}
+
+.filebox label {
+  display: inline-block;
+  padding: .5em .75em;
+  color: #fff;
+  font-size: inherit;
+  line-height: normal;
+  vertical-align: middle;
+  background-color: #5cb85c;
+  cursor: pointer;
+  border: 1px solid #4cae4c;
+  border-radius: .25em;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+.filebox label:hover {
+  background-color: #6ed36e;
+}
+
+.filebox label:active {
+  background-color: #367c36;
+}
+
+.filebox input[type="file"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+/* 파일 업로드 버튼 스타일 끝 */
+
+.btn-warning{
+	color:white;
+}

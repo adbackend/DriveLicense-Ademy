@@ -1,0 +1,316 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+	color:#212121;
+	font-family: 'Noto Sans KR';
+}
+
+
+/* carousel 크기 및 패딩값 */
+.carousel-inner{
+	width:1903px;
+	height: 570px;
+}
+
+/* carousel 상위 컨테이너*/
+.carousel_top{
+	position: relative;
+}
+
+/**/
+.carousel_top .text{
+position:absolute;
+top : 50%;
+left : 50%;
+transform: translate(-50%, -50%);
+font-size:2.6em;
+font-weight: 700;
+color:white;
+text-shadow:4px 3px 4px black;
+text-align: center;
+}
+
+
+
+/* 메인 넓이(컨테이너)*/
+#main-width{
+	width:1200px;
+	margin:0 auto;
+	min-height: 100%;
+	position:relative;
+	padding-bottom: 150px;
+}
+
+/*메뉴 설명 스타일*/
+#menuinfo{
+	width:1200px;
+	height:200px;
+	margin:0 auto;
+	text-align:center;
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 30px;
+	font-weight: 600;
+}
+/* header 스타일 */
+#header{
+	height:100px;
+	width:1100px;
+	margin:0 auto;
+}
+
+#header img {
+	max-height: 100%;
+	float:left;
+}
+#header .header-menu{
+	float : right;
+}
+
+#header .header-menu li {
+	list-style:none;
+	float:left;
+	line-height: 100px;
+	color:#212121;
+}
+
+#header .header-menu ul>li::after{
+ padding-right:7px;
+ padding-left:7px;
+ content: "|";
+  float: right;
+  color:#212121;
+  font-size: 14px;
+  
+}
+#header .header-menu ul>li:last-child::after{
+	content:none;
+}
+
+#header .header-menu li a{
+	padding:10px 15px;
+	color:#212121;
+	font-size: 15px;
+	text-decoration: none;
+}
+/* header 스타일 끝 */
+
+/*menu(학원안내, 과정안내, 수강안내 ....) 스타일*/
+#menu a{
+	text-decoration:none;
+	color:white;
+}
+
+#menu li{
+	list-style:none;
+}
+
+#menu{ /* 메뉴바 전체 색상, 높이*/
+	background: #0d82eb;
+	height:56px;
+}
+
+#menu ul{ /* 메뉴바 사이즈*/
+	width:1200px;
+	margin:0 auto;	
+}
+
+#menu .menu-main>li { /*메뉴바*/
+	z-index:3;
+	font-size:18px;
+	float : left;
+	width: 20%;
+	height:100%;
+	line-height:55px;
+	text-align:center;
+	background: #0d82eb;
+	position:relative;
+}
+
+#menu .menu-main>li a{
+	display:block;
+}
+
+#menu .menu-main>li:hover .sub{
+	display:block;
+}
+
+#menu .menu-main>li a:hover{ /*main il 클릭시 디자인*/
+	background: #0d82eb;
+	color:white;
+}
+
+#menu .menu-main .sub{
+	position: absolute;
+	top:55px;
+	left:0;
+	width: 100%;
+	display: none;
+}
+
+#menu .menu-main .sub li{ /* 드롭다운 메뉴 */
+	background:#0d82eb;
+	font-size:16px;
+}
+
+#menu .menu-main .sub li a:hover{
+	background:#1f90f5;
+	font-weight: 600;
+	text-decoration: underline;
+}
+/*menu(학원안내, 과정안내, 수강안내 ....) 스타일 끝*/
+
+/*중간 메뉴 스타일 시작*/
+.middle-menu-style{
+	width:1902.5px;
+	height:auto;
+	background: #2c567a;
+	padding-top: 13px;
+}
+
+.middle-menu-call{
+	width:320px;
+	height: 60px;
+	background: #2c567a;
+	margin: 0 auto;
+	
+}
+
+.middle-menu-call img{
+	margin-top:13px;
+	margin-left:2px;
+	width: 40px;
+	height: auto;
+	border-radius: 5px;
+	float: left;
+}
+
+.middle-menu-call h3{
+	margin-top:9px;
+	margin-left:12px;
+	font-size:33px;
+	color: white;
+	float: left;
+}
+
+/*퀵메뉴*/
+.middle-quick-menu-div{
+	background: #2c567a;
+	height:160px;
+}
+
+.middle-quick-menu-inner{
+	margin-top:10px; 
+	margin-left:80px; 
+	text-align: center;
+}
+
+.middle-quick-menu-content{
+	display:inline-block; 
+	margin-right: 135px; 
+}
+
+middle-quick-menu-content img {
+	height: auto;
+}
+
+.middle-text{
+	padding-top: 15px;
+	color:white;
+}
+
+/*공지사항 스타일*/
+.notice-div{
+	width:1902.5px;
+	height:470px;
+	background: #fafafa;
+	margin: 0 auto;
+}
+
+.notice-info{
+	padding-top:60px;
+	width:1902.5px;
+	height:130px;
+	margin:0 auto;
+	text-align:center;
+	display: table-cell;
+	font-size: 28px;
+	font-weight: 600;
+}
+.notice-table-div{
+	width:850px;
+	margin: 0 auto;
+}
+
+.notice-table-div table td{
+	height:53px;
+	padding-left: 20px;
+	font-size: 17px;
+}
+
+.notice-div hr{
+	margin-left:527px;
+	width:850px;
+	background:black;
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 1px;
+	
+}
+.notice-table{
+	background: white;
+}
+
+.notice-table-date{
+	width:160px;
+	color:#919191;
+	margin-right: 3px;
+}
+
+/*footer 스타일*/
+footer {
+	width:1902.5px;
+	height:240px;
+	background: #393939;
+	margin: 0 auto;
+	position: absolute;
+}
+
+.footer-div{
+	padding-top:40px;
+	margin-left: 190px;
+	text-align: center;
+	background: #393939;
+	height: 240px;
+}
+
+.footer-div-content{
+	color:white;
+	text-align:left;
+	display:inline-block;
+	margin-right: 130px;
+	height: 170px;
+}
+
+.footer-div-content .longhr{
+	width:330px;
+	background:white;
+	  margin-top: 0;
+   margin-bottom: 20px;
+}
+
+.footer-div-content .shorthr{
+	width:190px;
+	background:white;
+	margin-top: 0;
+   	margin-bottom: 20px;
+}
+
+.footer-div-content span{
+	color:white;
+	font-size: 17px;
+	font-weight: 600;
+}
