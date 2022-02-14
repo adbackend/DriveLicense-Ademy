@@ -1,5 +1,24 @@
 # 운전면허 수강 사이트
 
+#### 사용자가 쉽고 편리하게 학원 정보와 과정을 확인하고
+수강 신청과 상담 신청을 할 수 있습니다
+ 
+
+
+## [sql테이블](https://github.com/adbackend/Interior-Platform/blob/master/src/main/webapp/sql/LastEdit_table.sql)<br/>
+
+## 개발인원: 5인
+### 개발환경
+* OS - Microsoft Windows 10
+* TOOLS - JDK 1.8
+* DBMS - Oracle Database 11g
+* SERVER - Apache Tomcat v9.0
+* LANGUAGE - Java/HTML/CSS/
+JavaScript/SQL/JSP
+
+
+<br>
+
 ![2조_erd](https://user-images.githubusercontent.com/94349690/147401509-68115e97-0021-4019-ba68-7b7a0ea21036.png)
 
 
