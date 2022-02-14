@@ -4,9 +4,6 @@
 수강 신청과 상담 신청을 할 수 있습니다
  
 
-
-## [sql테이블](https://github.com/adbackend/Interior-Platform/blob/master/src/main/webapp/sql/LastEdit_table.sql)<br/>
-
 ## 개발인원: 5인
 ### 개발환경
 * OS - Microsoft Windows 10
